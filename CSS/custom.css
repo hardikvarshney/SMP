@@ -1,0 +1,63 @@
+/*Change brand name font*/
+.navbar-brand{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2em;
+    font-weight:bold;
+}
+/*Change navigation color*/
+.navbar #myMenu .custom-nav .nav-item a{
+    color: #fff;
+
+}
+/*Hover effect on nav bar*/
+.navbar #myMenu .custom-nav .nav-item a:hover{
+    color: #F0AAB1;
+}
+/*Header image responsive*/
+.back-image
+{
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    min-height: 90vh;
+    border-radius:0px;
+    margin-top:50px;
+}
+/*Header Image Sub-Titile*/
+.font-italic
+{
+    font-size:24px;
+}
+.fi-color
+{
+    color:#dc3545;
+}
+.fi-color:hover
+{
+    color:#e994a2;
+}
+a{
+    color:black;
+}
+.active{
+    color: white;
+    background-color: #dc3545
+}
+a:hover{
+    color: #f26571;
+}
+/*Margin Welcome to OSMS*/
+.mainHeading
+{
+    margin-top:100px;
+    margin-left:50px;
+}
+/**/
+@media only screen and(max-width: 600px)
+{
+    .myClass
+    {
+        margin-top:350px;
+        text-align:center;
+    }
+}
